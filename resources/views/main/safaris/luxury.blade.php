@@ -83,15 +83,6 @@
                                                 <img src="assets/images/package/feat-img2.png" alt="" />
                                             </div>
                                         </div>
-                                        <div class="featured-video position-absolute">
-                                            <img src="assets/images/package/feat-img3.png" alt="" />
-                                            <div class="video-overlay">
-                                                <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
-                                                    class="play-icon video-popup" data-fancybox>
-                                                    <i class="bi bi-play-fill"></i>
-                                                </a>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
 
