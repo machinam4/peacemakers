@@ -37,12 +37,12 @@
                             <div class="row dd-img-group">
                                 <div class="col-sm-6">
                                     <div class="dd-inner-group">
-                                        <img src="assets/images/destination/serengeti_1.jpeg" alt="" />
+                                        <img src="assets/images/destination/arusha_1.jpeg" alt="" />
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="dd-inner-group">
-                                        <img src="assets/images/destination/serengeti_2.jpeg" alt="" />
+                                        <img src="assets/images/destination/arusha_2.jpeg" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -104,7 +104,7 @@
                             </div>
                         </div>
                         <div class="dd-thumb">
-                            <img src="assets/images/destination/serengeti_3.jpeg" alt="" />
+                            <img src="assets/images/destination/arusha_3.jpeg" alt="" />
                         </div>
                     </div>
                 </div>

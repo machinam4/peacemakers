@@ -6,20 +6,20 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="{{ asset('amani/images/faicon.png') }}" type="image/gif" sizes="20x20">
+    <link rel="icon" href="{{ asset('assets/images/faicon.png') }}" type="image/gif" sizes="20x20">
 
-    <link rel="stylesheet" href="{{ asset('amani/css/select2.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/select2.min.css') }}">
 
-    <link rel="stylesheet" href="{{ asset('amani/css/jquery.fancybox.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/jquery.fancybox.min.css') }}">
 
-    <link href="{{ asset('amani/css/boxicons.min.css') }}" rel='stylesheet'>
+    <link href="{{ asset('assets/css/boxicons.min.css') }}" rel='stylesheet'>
 
-    <link rel="stylesheet" href="{{ asset('amani/css/swiper-bundle.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
 
-    <link rel="stylesheet" href="{{ asset('amani/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net\npm\bootstrap-icons@1.6.1\font\bootstrap-icons.css">
-    <link rel="stylesheet" href="{{ asset('amani/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('amani/css/responsive.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
 </head>
 
 <body>
@@ -156,7 +156,7 @@
                 <div class="col">
                     <a class="category-box" href="package.html">
                         <div class="cate-icon mx-auto">
-                            <img src="{{ asset('amani/images/icons/cate1.svg') }}" alt="">
+                            <img src="{{ asset('assets/images/icons/cate1.svg') }}" alt="">
                         </div>
                         <h5>Adventure</h5>
                     </a>
@@ -164,7 +164,7 @@
                 <div class="col">
                     <a class="category-box" href="package.html">
                         <div class="cate-icon mx-auto">
-                            <img src="{{ asset('amani/images/icons/cate2.svg') }}" alt="">
+                            <img src="{{ asset('assets/images/icons/cate2.svg') }}" alt="">
                         </div>
                         <h5>Group Tour</h5>
                     </a>
@@ -172,7 +172,7 @@
                 <div class="col">
                     <a class="category-box" href="package.html">
                         <div class="cate-icon mx-auto">
-                            <img src="{{ asset('amani/images/icons/cate3.svg') }}" alt="">
+                            <img src="{{ asset('assets/images/icons/cate3.svg') }}" alt="">
                         </div>
                         <h5>Couple Tour</h5>
                     </a>
@@ -180,7 +180,7 @@
                 <div class="col">
                     <a class="category-box" href="package.html">
                         <div class="cate-icon mx-auto">
-                            <img src="{{ asset('amani/images/icons/cate4.svg') }}" alt="">
+                            <img src="{{ asset('assets/images/icons/cate4.svg') }}" alt="">
                         </div>
                         <h5>Single Tour</h5>
                     </a>
@@ -188,7 +188,7 @@
                 <div class="col">
                     <a class="category-box" href="package.html">
                         <div class="cate-icon mx-auto">
-                            <img src="{{ asset('amani/images/icons/cate5.svg') }}" alt="">
+                            <img src="{{ asset('assets/images/icons/cate5.svg') }}" alt="">
                         </div>
                         <h5>Honeymoon</h5>
                     </a>
@@ -196,7 +196,7 @@
                 <div class="col">
                     <a class="category-box" href="package.html">
                         <div class="cate-icon mx-auto">
-                            <img src="{{ asset('amani/images/icons/cate6.svg') }}" alt="">
+                            <img src="{{ asset('assets/images/icons/cate6.svg') }}" alt="">
                         </div>
                         <h5>Sea Beach</h5>
                     </a>
@@ -204,7 +204,7 @@
                 <div class="col">
                     <a class="category-box" href="package.html">
                         <div class="cate-icon mx-auto">
-                            <img src="{{ asset('amani/images/icons/cate7.svg') }}" alt="">
+                            <img src="{{ asset('assets/images/icons/cate7.svg') }}" alt="">
                         </div>
                         <h5>Mountain Tour</h5>
                     </a>
@@ -254,7 +254,7 @@
                     <div
                         class="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-xs-12 align-items-center d-xl-flex d-lg-block">
                         <div class="nav-logo d-flex justify-content-between align-items-center">
-                            <a href="index.html"><img src="{{ asset('amani/images/logo-w.jpeg') }}" alt="logo"></a>
+                            <a href="index.html"><img src="{{ asset('assets/images/logo-w.jpeg') }}" alt="logo"></a>
                             <div class="d-flex align-items-center gap-4">
                                 <div class="nav-right d-xl-none">
                                     <ul class="nav-actions">
@@ -279,7 +279,7 @@
                     <div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 col-xs-6">
                         <nav class="main-nav float-end">
                             <div class="inner-logo d-xl-none text-center">
-                                <a href="#"><img src="{{ asset('amani/images/log.png') }}"
+                                <a href="#"><img src="{{ asset('assets/images/log.png') }}"
                                         alt="Peacemakers Expeditions"></a>
                             </div>
                             <ul>
@@ -306,19 +306,25 @@
                                         <li class="has-child-menu">
                                             <a href="package.html">Safaris</a>
                                             <ul class="sub-menu">
-                                                <li><a href="{{ Route('package') }}">Majestic Tanzania</a></li>
-                                                <li><a href="{{ Route('package') }}">Epic Family Safari Drive</a>
+                                                <li><a href="{{ Route('majestic_tanzania') }}">Majestic Tanzania</a>
                                                 </li>
-                                                <li><a href="{{ Route('package') }}">Luxury</a></li>
-                                                <li><a href="{{ Route('package') }}">Luxury Journey of the Wildbeast
+                                                <li><a href="{{ Route('epic_family_safari_adventure') }}">Epic Family
+                                                        Safari Drive</a>
+                                                </li>
+                                                <li><a href="{{ Route('luxury') }}">Luxury</a></li>
+                                                <li><a href="{{ Route('luxury_journey_of_the_wildbeest_tour') }}">Luxury
+                                                        Journey of the Wildbeast
                                                         Tour</a></li>
-                                                <li><a href="{{ Route('package') }}">Adventure Trip</a></li>
-                                                <li><a href="{{ Route('package') }}">Mid-range Lodge Group Tour</a>
+                                                <li><a href="{{ Route('adventure_trip') }}">Adventure Trip</a></li>
+                                                <li><a href="{{ Route('midrange_lodge_group_tour') }}">Mid-range
+                                                        Lodge Group Tour</a>
                                                 </li>
-                                                <li><a href="{{ Route('package') }}">3 Days to Tarangire And Lake
+                                                <li><a href="{{ Route('3days_tarangire_and_lake_manyara') }}">3 Days
+                                                        to Tarangire And Lake
                                                         Manyara</a></li>
-                                                <li><a href="{{ Route('package') }}">Great Migration</a></li>
-                                                <li><a href="{{ Route('package') }}">Safari & Cultural Activity in
+                                                <li><a href="{{ Route('great_migration') }}">Great Migration</a></li>
+                                                <li><a href="{{ Route('safari_cultural') }}">Safari & Cultural
+                                                        Activity in
                                                         Kilimanjaro Region</a></li>
                                             </ul>
                                         </li>
@@ -376,7 +382,7 @@
     <div class="footer-area mt-120">
         <div class="footer-main-wrapper">
             <div class="footer-vactor">
-                <img src="{{ asset('amani/images/banner/footer-bg.png') }}" alt="">
+                <img src="{{ asset('assets/images/banner/footer-bg.png') }}" alt="">
             </div>
             <div class="container">
                 <div class="row justify-content-center">
@@ -473,15 +479,15 @@
     </div>
 
 
-    <script src="{{ asset('amani/js/jquery-3.6.0.min.js') }}"></script>
-    <script src="{{ asset('amani/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('amani/js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('amani/js/swiper-bundle.min.js') }}"></script>
-    <script src="{{ asset('amani/js/jquery.fancybox.min.js') }}"></script>
-    <script src="{{ asset('amani/js/select2.min.js') }}"></script>
-    <script src="{{ asset('amani/js/jquery-ui.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.fancybox.min.js') }}"></script>
+    <script src="{{ asset('assets/js/select2.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery-ui.js') }}"></script>
 
-    <script src="{{ asset('amani/js/main.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 </body>
 
 </html>

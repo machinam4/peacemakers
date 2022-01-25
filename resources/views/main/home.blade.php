@@ -53,10 +53,10 @@
                                         highly professional safari drivers guides who possess several years’ experience of
                                         service in Tourism.
                                     </p>
-                                    <div class="hero-btns">
+                                    {{-- <div class="hero-btns">
                                         <a href="package.html" class="button-fill-primary">View Adventure</a>
                                         <a href="package.html" class="button-outlined-primary">Take A Tour</a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>

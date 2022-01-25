@@ -49,3 +49,30 @@ Route::get('/zanzibar', function () {
 Route::get('/package', function () {
     return view('main.safaris.package-details');
 })->name('package');
+Route::get('/majestic_tanzania', function () {
+    return view('main.safaris.majestic_tanzania');
+})->name('majestic_tanzania');
+Route::get('/epic_family_safari_adventure', function () {
+    return view('main.safaris.epic_family_safari_adventure');
+})->name('epic_family_safari_adventure');
+Route::get('/luxury', function () {
+    return view('main.safaris.luxury');
+})->name('luxury');
+Route::get('/luxury_journey_of_the_wildbeest_tour', function () {
+    return view('main.safaris.luxury_journey_of_the_wildbeest_tour');
+})->name('luxury_journey_of_the_wildbeest_tour');
+Route::get('/midrange_lodge_group_tour', function () {
+    return view('main.safaris.midrange_lodge_group_tour');
+})->name('midrange_lodge_group_tour');
+Route::get('/great_migration', function () {
+    return view('main.safaris.great_migration');
+})->name('great_migration');
+Route::get('/safari_cultural', function () {
+    return view('main.safaris.safari_cultural');
+})->name('safari_cultural');
+Route::get('/3days_tarangire_and_lake_manyara', function () {
+    return view('main.safaris.3days_tarangire_and_lake_manyara');
+})->name('3days_tarangire_and_lake_manyara');
+Route::get('/adventure_trip', function () {
+    return view('main.safaris.adventure_trip');
+})->name('adventure_trip');
