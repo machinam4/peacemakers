@@ -32,7 +32,7 @@
                             <li><i class="bi bi-telephone-fill"></i> <a href="tel:+255 782 869 676">+255 782 869 676</a>
                             </li>
                             <li><i class="bi bi-envelope-fill"></i> <a
-                                    href=""><span>info@peacemakersexpeditions.com</span></a>
+                                    href="mailto:peacemakersexpedition@gmail.com"><span>peacemakersexpedition@gmail.com</span></a>
                             </li>
                         </ul>
                     </div>
@@ -63,7 +63,7 @@
                     <div
                         class="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-xs-12 align-items-center d-xl-flex d-lg-block">
                         <div class="nav-logo d-flex justify-content-between align-items-center">
-                            <a href="{{ Route('home') }}"><img src="{{ asset('assets/images/logo-w.jpeg') }}"
+                            <a href="{{ Route('home') }}"><img src="{{ asset('assets/images/logo-wide.png') }}"
                                     alt="logo"></a>
                             <div class="d-flex align-items-center gap-4">
                                 <div class="mobile-menu d-flex ">
@@ -79,7 +79,7 @@
                     <div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 col-xs-6">
                         <nav class="main-nav float-end">
                             <div class="inner-logo d-xl-none text-center">
-                                <a href="#"><img src="{{ asset('assets/images/log.png') }}"
+                                <a href="#"><img src="{{ asset('assets/images/logo-wide.png') }}"
                                         alt="Peacemakers Expeditions"></a>
                             </div>
                             <ul>
@@ -104,7 +104,8 @@
                                     <i class="fl flaticon-plus">+</i>
                                     <ul class="sub-menu">
                                         <li class="has-child-menu">
-                                            <a href="javascript:void(0)">Safaris</a>
+                                            <a href="#">Safaris</a>
+                                            <i class="fl flaticon-plus">+</i>
                                             <ul class="sub-menu">
                                                 <li><a href="{{ Route('majestic_tanzania') }}">Majestic Tanzania</a>
                                                 </li>
@@ -138,6 +139,7 @@
                                     <ul class="sub-menu">
                                         <li class="has-child-menu">
                                             <a href="javascript:void(0)">Kilimanjaro</a>
+                                            <i class="fl flaticon-plus">+</i>
                                             <ul class="sub-menu">
                                                 <li><a href="{{ Route('package') }}">Marangu Route</a></li>
                                                 <li><a href="{{ Route('package') }}">Machame Route</a></li>
@@ -156,7 +158,7 @@
                                 <div class="contact-box-inner"><i class="bi bi-telephone-fill"></i> <a
                                         href="tel:+255782869676">+255 782 869 676</a></div>
                                 <div class="contact-box-inner"><i class="bi bi-envelope-fill"></i> <a
-                                        href="#">info@peacemakersexpeditions.com</a>
+                                        href="mailto:peacemakersexpedition@gmail.com">peacemakersexpedition@gmail.com</a>
                                 </div>
                             </div>
                         </nav>
@@ -242,7 +244,7 @@
                     <ul class="footer-contact-list">
                         <li><i class="bi bi-telephone-x"></i> <a href="tel:+255782869676 ">+255 782 869 676</a></li>
                         <li><i class="bi bi-envelope-open"></i> <a
-                                href=""><span>info@peacemakersexpeditions.com</span></a>
+                                href="mailto:peacemakersexpedition@gmail.com"><span>peacemakersexpedition@gmail.com</span></a>
                         </li>
                         <li><i class="bi bi-geo-alt"></i> <a href="#">Arusha, Tanzania</a></li>
                     </ul>
@@ -260,7 +262,7 @@
                     </div>
                     <div class="col-lg-4  order-lg-2 order-1">
                         <div class="footer-logo text-center">
-                            <a href="{{ Route('home') }}"><img src="assets/images/log-w.png"
+                            <a href="{{ Route('home') }}"><img src="{{ asset('assets/images/logo-wide.png') }}"
                                     alt="Peacemakers Expeditions"></a>
                         </div>
                     </div>

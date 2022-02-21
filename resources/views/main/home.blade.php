@@ -280,8 +280,8 @@
                                         <img src="{{ asset('assets/images/icons/counter-icon2.svg') }}" alt="">
                                     </div>
                                     <div class="achievement-box-content">
-                                        <h2>500+</h2>
-                                        <h4>Awesome Tour</h4>
+                                        <h2>50+</h2>
+                                        <h4>Awesome Safaris</h4>
                                     </div>
                                 </div>
                             </div>
@@ -291,8 +291,8 @@
                                         <img src="{{ asset('assets/images/icons/counter-icon3.svg') }}" alt="">
                                     </div>
                                     <div class="achievement-box-content">
-                                        <h2>300+</h2>
-                                        <h4>New Destinations</h4>
+                                        <h2>30+</h2>
+                                        <h4>Destinations</h4>
                                     </div>
                                 </div>
                             </div>
@@ -302,7 +302,7 @@
                                         <img src="{{ asset('assets/images/icons/counter-icon1.svg') }}" alt="">
                                     </div>
                                     <div class="achievement-box-content">
-                                        <h2>05+</h2>
+                                        <h2>20+</h2>
                                         <h4>Years Experience</h4>
                                     </div>
                                 </div>
@@ -313,8 +313,8 @@
                                         <img src="{{ asset('assets/images/icons/counter-icon4.svg') }}" alt="">
                                     </div>
                                     <div class="achievement-box-content">
-                                        <h2>150+</h2>
-                                        <h4>Best Mountains</h4>
+                                        <h2>15+</h2>
+                                        <h4>Itenaries</h4>
                                     </div>
                                 </div>
                             </div>

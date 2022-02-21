@@ -26,8 +26,9 @@
                         <ul>
                             <li>
                                 <h6>Let’s Talk</h6>
-                                <a href="#"><span>info@PeaceMakers.com</span></a>
-                                <a href="#"><span>tours@PeaceMakers.com</span></a>
+                                <a
+                                    href="mailto:peacemakersexpedition@gmail.com"><span>peacemakersexpedition@gmail.com</span></a>
+                                {{-- <a href="#"><span>tours@PeaceMakers.com</span></a> --}}
                                 <a href="tel:255782869676">+255 782 869 676</a>
                             </li>
                             <li>
@@ -77,5 +78,4 @@
             </form>
         </div>
     </div>
-
 @endsection
