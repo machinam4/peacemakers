@@ -39,6 +39,19 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net\npm\bootstrap-icons@1.6.1\font\bootstrap-icons.css">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PWKLY7CKE8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-PWKLY7CKE8');
+    </script>
 </head>
 
 <body>
