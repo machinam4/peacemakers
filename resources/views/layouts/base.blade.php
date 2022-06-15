@@ -17,10 +17,9 @@
      experiences that provide our travellers with a journey that is both informative and inspiring.">
     <meta property="og:type" content="tourism and travel" />
     <meta property="og:site_name" content="Peacemakers Expeditions" />
-    <meta property="og:title"
-        content="Peacemakers Expeditions | Online Shopping zfor Groceries, Appliances, Cleaning Supplies &amp; more" />
+    <meta property="og:title" content="Peacemakers Expeditions | Inspire to make a difference" />
     <meta property="og:description"
-        content="Jumia Kenya the #1 tourist and travel company in Arusha Tanzania, visit all your top locations in East Africa, parks and mountains. Vacations planned for by peacemakers guides " />
+        content="Peacemakers Expeditions Tanzania the #1 tourist and travel company in Arusha Tanzania, visit all your top locations in East Africa, parks and mountains. Vacations planned for by peacemakers guides " />
     <meta property="og:url" content="/" />
     <meta property="og:image" content="{{ asset('assets/images/logo.webp') }}" />
     <meta property="og:locale" content="en_TZ" />
