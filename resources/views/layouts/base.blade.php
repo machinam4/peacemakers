@@ -14,7 +14,7 @@
         content="PEACEMAKERS EXPEDITION is a Locally owned safari company that provides top-notch Safari and logistic solutions for safari in East Africa. PEACEMAKERS EXPEDITION offers quality travel experiences that provide our travellers with a journey that is both informative and inspiring.">
 
 
-    <link rel="icon" href="{{ asset('assets/images/logo rect.webp') }}" type="image/gif" sizes="20x20">
+    <link rel="icon" href="{{ asset('assets/images/logo.webp') }}" type="image/gif" sizes="20x20">
 
     <link rel="stylesheet" href="{{ asset('assets/css/select2.min.css') }}">
 
