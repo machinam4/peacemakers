@@ -15,10 +15,10 @@
                                     <p>we have been helping guests from all over the globe create carefully crafted personal
                                         African safari holidays and inspiring wildlife photography for students with nature
                                         experiences. </p>
-                                    <div class="hero-btns">
+                                    {{-- <div class="hero-btns">
                                         <a href="package.html" class="button-fill-primary">View Adventure</a>
                                         <a href="package.html" class="button-outlined-primary">Take A Tour</a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -33,10 +33,10 @@
                                     <h2 class="hero-title"> Move The <span>Earth</span></h2>
                                     <p>PEACEMAKERS EXPEDITIONS offers quality travel experiences that provide our travellers
                                         with a journey that is both informative and inspiring.</p>
-                                    <div class="hero-btns">
+                                    {{-- <div class="hero-btns">
                                         <a href="package.html" class="button-fill-primary">View Adventure</a>
                                         <a href="package.html" class="button-outlined-primary">Take A Tour</a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -96,20 +96,22 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="package-card-alpha">
                         <div class="package-thumb">
-                            <a href="package-details.html"><img
+                            <a href="{{ Route('majestic_tanzania') }}"><img
                                     src="{{ asset('assets/images/package/Peacemaker-majestic1.webp') }}" alt=""></a>
                             <p class="card-lavel">
                                 <i class="bi bi-clock"></i> <span>6 Days/5 Nights</span>
                             </p>
                         </div>
                         <div class="package-card-body">
-                            <h3 class="p-card-title"><a href="package-details.html">Majestic Tanzania.</a></h3>
+                            <h3 class="p-card-title"><a href="{{ Route('majestic_tanzania') }}">Majestic Tanzania.</a>
+                            </h3>
                             <p>•Tarangire National Park •Lake Manyara National Park •Serengeti National Park •Ngorongoro
                                 Crater
                             </p>
                             <div class="p-card-bottom">
                                 <div class="book-btn">
-                                    <a href="package-details.html">Book Now <i class='bx bxs-right-arrow-alt'></i></a>
+                                    <a href="{{ Route('majestic_tanzania') }}">Book Now <i
+                                            class='bx bxs-right-arrow-alt'></i></a>
                                 </div>
                             </div>
                         </div>
@@ -118,18 +120,20 @@
                 <div class="col-lg-4 col-md-6 ">
                     <div class="package-card-alpha">
                         <div class="package-thumb">
-                            <a href="package-details.html"><img
+                            <a href="{{ Route('epic_family_safari_adventure') }}"><img
                                     src="{{ asset('assets/images/package/Peacemaker-family.webp') }}" alt=""></a>
                             <p class="card-lavel">
                                 <i class="bi bi-clock"></i> <span>8 Days/7 Nights</span>
                             </p>
                         </div>
                         <div class="package-card-body">
-                            <h3 class="p-card-title"><a href="package-details.html">Epic Family Safari Adventure.</a></h3>
+                            <h3 class="p-card-title"><a href="{{ Route('epic_family_safari_adventure') }}">Epic Family
+                                    Safari Adventure.</a></h3>
                             <p>•Tarangire •Serengeti •Ngorongoro •Manyara •Lake Eyasi</p>
                             <div class="p-card-bottom">
                                 <div class="book-btn">
-                                    <a href="package-details.html">Book Now <i class='bx bxs-right-arrow-alt'></i></a>
+                                    <a href="{{ Route('epic_family_safari_adventure') }}">Book Now <i
+                                            class='bx bxs-right-arrow-alt'></i></a>
                                 </div>
                             </div>
                         </div>
@@ -138,18 +142,19 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="package-card-alpha">
                         <div class="package-thumb">
-                            <a href="package-details.html"><img
+                            <a href="{{ Route('adventure_trip') }}"><img
                                     src="{{ asset('assets/images/package/Peacemaker-adventure.webp') }}" alt=""></a>
                             <p class="card-lavel">
                                 <i class="bi bi-clock"></i> <span>5 Days/4 Nights</span>
                             </p>
                         </div>
                         <div class="package-card-body">
-                            <h3 class="p-card-title"><a href="package-details.html">Adventure Trip</a></h3>
+                            <h3 class="p-card-title"><a href="{{ Route('adventure_trip') }}">Adventure Trip</a></h3>
                             <p>•Tarangire •Lake Manyara •Serengeti •Ngorongoro</p>
                             <div class="p-card-bottom">
                                 <div class="book-btn">
-                                    <a href="package-details.html">Book Now <i class='bx bxs-right-arrow-alt'></i></a>
+                                    <a href="{{ Route('adventure_trip') }}">Book Now <i
+                                            class='bx bxs-right-arrow-alt'></i></a>
                                 </div>
                             </div>
                         </div>
@@ -188,12 +193,12 @@
                     <div class="swiper-slide">
                         <div class="destination-card-style-one">
                             <div class="d-card-thumb">
-                                <a href="destination-details.html"><img
+                                <a href="{{ Route('serengeti') }}"><img
                                         src="{{ asset('assets/images/destination/serengeti.webp') }}" alt=""></a>
                             </div>
                             <div class="d-card-overlay">
                                 <div class="d-card-content">
-                                    <h3 class="d-card-title"><a href="destination-details.html">Serengeti</a></h3>
+                                    <h3 class="d-card-title"><a href="{{ Route('serengeti') }}">Serengeti</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -201,12 +206,12 @@
                     <div class="swiper-slide">
                         <div class="destination-card-style-one">
                             <div class="d-card-thumb">
-                                <a href="destination-details.html"><img
+                                <a href="{{ Route('ngorongoro') }}"><img
                                         src="{{ asset('assets/images/destination/ngorongoro.webp') }}" alt=""></a>
                             </div>
                             <div class="d-card-overlay">
                                 <div class="d-card-content">
-                                    <h3 class="d-card-title"><a href="destination-details.html">NgoroNgoro</a></h3>
+                                    <h3 class="d-card-title"><a href="{{ Route('ngorongoro') }}">NgoroNgoro</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -214,11 +219,12 @@
                     <div class="swiper-slide">
                         <div class="destination-card-style-one">
                             <div class="d-card-thumb">
-                                <a href="#"><img src="{{ asset('assets/images/destination/manyara.webp') }}" alt=""></a>
+                                <a href="{{ Route('manyara') }}"><img
+                                        src="{{ asset('assets/images/destination/manyara.webp') }}" alt=""></a>
                             </div>
                             <div class="d-card-overlay">
                                 <div class="d-card-content">
-                                    <h3 class="d-card-title"><a href="destination-details.html">Lake Manyara</a></h3>
+                                    <h3 class="d-card-title"><a href="{{ Route('manyara') }}">Lake Manyara</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -226,12 +232,12 @@
                     <div class="swiper-slide">
                         <div class="destination-card-style-one">
                             <div class="d-card-thumb">
-                                <a href="destination-details.html"><img
+                                <a href="{{ Route('tarangire') }}"><img
                                         src="{{ asset('assets/images/destination/tarangire.webp') }}" alt=""></a>
                             </div>
                             <div class="d-card-overlay">
                                 <div class="d-card-content">
-                                    <h3 class="d-card-title"><a href="destination-details.html">Tarangire</a></h3>
+                                    <h3 class="d-card-title"><a href="{{ Route('tarangire') }}">Tarangire</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -239,12 +245,12 @@
                     <div class="swiper-slide">
                         <div class="destination-card-style-one">
                             <div class="d-card-thumb">
-                                <a href="destination-details.html"><img
+                                <a href="{{ Route('arusha') }}"><img
                                         src="{{ asset('assets/images/destination/arusha.webp') }}" alt=""></a>
                             </div>
                             <div class="d-card-overlay">
                                 <div class="d-card-content">
-                                    <h3 class="d-card-title"><a href="destination-details.html">Arusha</a></h3>
+                                    <h3 class="d-card-title"><a href="{{ Route('arusha') }}">Arusha</a></h3>
                                 </div>
                             </div>
                         </div>
