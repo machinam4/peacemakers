@@ -2,17 +2,28 @@
 <html lang="en">
 
 <head>
-    <title>Peacemakers Expeditions</title>
+    <title>Peacemakers Expeditions | Inspire to make a difference</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{-- site metas --}}
     <meta name="author" content="Evoton">
     <meta name="keywords" content="Peacemakersexpeditions, peacemakerexpeditions, peeacemaker, Tanzania, Tourism, Tours Tanzania, Serengeti
-    Ngorongoro, tours company arusha, best tours, Africa Tourism">
-    <meta name="description"
-        content="PEACEMAKERS EXPEDITION is a Locally owned safari company that provides top-notch Safari and logistic solutions for safari in East Africa. PEACEMAKERS EXPEDITION offers quality travel experiences that provide our travellers with a journey that is both informative and inspiring.">
-
+    Ngorongoro, tours company arusha, best tours, Africa Tourism, Peacemakers Expedition & Safari">
+    <meta name="description" content="PEACEMAKERS EXPEDITIONS is a Locally owned safari company that provides
+    top-notch Safari and logistic solutions for safari in East Africa. PEACEMAKERS EXPEDITION offers quality travel
+     experiences that provide our travellers with a journey that is both informative and inspiring.">
+    <meta property="og:type" content="tourism and travel" />
+    <meta property="og:site_name" content="Peacemakers Expeditions" />
+    <meta property="og:title"
+        content="Peacemakers Expeditions | Online Shopping zfor Groceries, Appliances, Cleaning Supplies &amp; more" />
+    <meta property="og:description"
+        content="Jumia Kenya the #1 tourist and travel company in Arusha Tanzania, visit all your top locations in East Africa, parks and mountains. Vacations planned for by peacemakers guides " />
+    <meta property="og:url" content="/" />
+    <meta property="og:image" content="{{ asset('assets/images/logo.webp') }}" />
+    <meta property="og:locale" content="en_TZ" />
+    <meta name="title" content="Peacemakers Expeditions | Inspire to make a difference" />
+    <meta name="robots" content="index, follow" />
 
     <link rel="icon" href="{{ asset('assets/images/logo.webp') }}" type="image/gif" sizes="20x20">
 
