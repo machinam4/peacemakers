@@ -24,7 +24,7 @@
     <meta property="og:image" content="{{ asset('assets/images/logo.webp') }}" />
     <meta property="og:locale" content="en_TZ" />
     <meta name="title" content="Peacemakers Expeditions | Inspire to make a difference" />
-    <meta name="robots" content="index, follow" />
+    {{-- <meta name="robots" content="index, follow" /> --}}
 
     <link rel="icon" href="{{ asset('assets/images/logo.webp') }}" type="image/gif" sizes="20x20">
 
