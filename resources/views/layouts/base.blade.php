@@ -6,7 +6,15 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="{{ asset('assets/images/faicon.png') }}" type="image/gif" sizes="20x20">
+    {{-- site metas --}}
+    <meta name="author" content="Evoton">
+    <meta name="keywords" content="Peacemakersexpeditions, peacemakerexpeditions, peeacemaker, Tanzania, Tourism, Tours Tanzania, Serengeti
+    Ngorongoro, tours company arusha, best tours, Africa Tourism">
+    <meta name="description"
+        content="PEACEMAKERS EXPEDITION is a Locally owned safari company that provides top-notch Safari and logistic solutions for safari in East Africa. PEACEMAKERS EXPEDITION offers quality travel experiences that provide our travellers with a journey that is both informative and inspiring.">
+
+
+    <link rel="icon" href="{{ asset('assets/images/logo rect.png') }}" type="image/gif" sizes="20x20">
 
     <link rel="stylesheet" href="{{ asset('assets/css/select2.min.css') }}">
 
