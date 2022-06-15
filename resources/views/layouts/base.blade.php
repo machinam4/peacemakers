@@ -6,11 +6,13 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="{{ asset('assets/images/apple-touch-icon.png') }}" />
     {{-- site metas --}}
     <meta name="author" content="Evoton">
-    <meta name="keywords" content="Peacemakersexpeditions, peacemakerexpeditions, peeacemaker, Tanzania, Tourism, Tours Tanzania, Serengeti
-    Ngorongoro, tours company arusha, best tours, Africa Tourism, Peacemakers Expedition & Safari">
-    <meta name="description" content="PEACEMAKERS EXPEDITIONS is a Locally owned safari company that provides
+    <meta name="keywords" content="Peacemakersexpeditions, peacemakerexpeditions, peacemaker, Tanzania, Tourism, Tours Tanzania, Serengeti
+    Ngorongoro, tours company arusha, best tours, Africa Tourism, Peacemakers Expedition & Safari, safari, lake, manyara, tarangire, arusha, africa,
+    adventure, tarangire, kilimanjaro, meru, mount, mountain, zanzibar">
+    <meta name="description" content="PeaceMakers Expeditions is a Locally owned safari company that provides
     top-notch Safari and logistic solutions for safari in East Africa. PEACEMAKERS EXPEDITION offers quality travel
      experiences that provide our travellers with a journey that is both informative and inspiring.">
     <meta property="og:type" content="tourism and travel" />
@@ -311,6 +313,22 @@
         </div>
     </div>
 
+    {{-- tawk.to plugin --}}
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/62a9ef697b967b117994b52e/1g5jsudtj';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
 
     <script src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script>
     <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
