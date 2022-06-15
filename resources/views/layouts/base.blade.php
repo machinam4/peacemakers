@@ -14,7 +14,7 @@
         content="PEACEMAKERS EXPEDITION is a Locally owned safari company that provides top-notch Safari and logistic solutions for safari in East Africa. PEACEMAKERS EXPEDITION offers quality travel experiences that provide our travellers with a journey that is both informative and inspiring.">
 
 
-    <link rel="icon" href="{{ asset('assets/images/logo rect.png') }}" type="image/gif" sizes="20x20">
+    <link rel="icon" href="{{ asset('assets/images/logo rect.webp') }}" type="image/gif" sizes="20x20">
 
     <link rel="stylesheet" href="{{ asset('assets/css/select2.min.css') }}">
 
@@ -71,7 +71,7 @@
                     <div
                         class="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-xs-12 align-items-center d-xl-flex d-lg-block">
                         <div class="nav-logo d-flex justify-content-between align-items-center">
-                            <a href="{{ Route('home') }}"><img src="{{ asset('assets/images/logo-wide.png') }}"
+                            <a href="{{ Route('home') }}"><img src="{{ asset('assets/images/logo-wide.webp') }}"
                                     alt="logo"></a>
                             <div class="d-flex align-items-center gap-4">
                                 <div class="mobile-menu d-flex ">
@@ -87,7 +87,7 @@
                     <div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 col-xs-6">
                         <nav class="main-nav float-end">
                             <div class="inner-logo d-xl-none text-center">
-                                <a href="#"><img src="{{ asset('assets/images/logo-wide.png') }}"
+                                <a href="#"><img src="{{ asset('assets/images/logo-wide.webp') }}"
                                         alt="Peacemakers Expeditions"></a>
                             </div>
                             <ul>
@@ -180,7 +180,7 @@
     <div class="footer-area mt-120">
         <div class="footer-main-wrapper">
             <div class="footer-vactor">
-                <img src="{{ asset('assets/images/banner/footer-bg.png') }}" alt="">
+                <img src="{{ asset('assets/images/banner/footer-bg.webp') }}" alt="">
             </div>
             <div class="container">
                 <div class="row justify-content-center">
@@ -270,7 +270,7 @@
                     </div>
                     <div class="col-lg-4  order-lg-2 order-1">
                         <div class="footer-logo text-center">
-                            <a href="{{ Route('home') }}"><img src="{{ asset('assets/images/logo-wide.png') }}"
+                            <a href="{{ Route('home') }}"><img src="{{ asset('assets/images/logo-wide.webp') }}"
                                     alt="Peacemakers Expeditions"></a>
                         </div>
                     </div>

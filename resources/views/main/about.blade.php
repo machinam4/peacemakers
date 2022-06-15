@@ -19,17 +19,17 @@
                     <div class="col-lg-6">
                         <div class="about-tab-image-grid text-center">
                             <div class="about-video d-inline-block">
-                                <img src="assets/images/about/peacemaker_about_1.jpeg" alt="" />
+                                <img src="assets/images/about/peacemaker_about_1.webp" alt="" />
                             </div>
                             <div class="row float-images g-4">
                                 <div class="col-lg-6 col-md-6 col-sm-6">
                                     <div class="about-image">
-                                        <img src="assets/images/about/peacemaker_about_2.jpeg" alt="" />
+                                        <img src="assets/images/about/peacemaker_about_2.webp" alt="" />
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6">
                                     <div class="about-image">
-                                        <img src="assets/images/about/peacemaker_about_5.jpeg" alt="" />
+                                        <img src="assets/images/about/peacemaker_about_5.webp" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -82,11 +82,10 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="about-image-group mt-5 mt-lg-0">
-                        <img src="assets/images/about/peacemaker_about_4.jpeg" alt="" class="img-fluid" />
+                        <img src="assets/images/about/peacemaker_about_4.webp" alt="" class="img-fluid" />
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 @endsection

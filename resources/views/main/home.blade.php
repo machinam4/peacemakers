@@ -7,7 +7,7 @@
                     <div class="swiper-slide">
                         <div class="hero-single-slide">
                             <div class="hero-highlighted-bg">
-                                <img src="{{ asset('assets/images/banner/peacemaker_banner-4.jpeg') }}" alt="">
+                                <img src="{{ asset('assets/images/banner/peacemaker_banner-4.webp') }}" alt="">
                             </div>
                             <div class="hero-content-bg">
                                 <div class="hero-content position-relative">
@@ -26,7 +26,7 @@
                     <div class="swiper-slide">
                         <div class="hero-single-slide">
                             <div class="hero-highlighted-bg">
-                                <img src="{{ asset('assets/images/banner/peacemaker_banner-2.jpeg') }}" alt="">
+                                <img src="{{ asset('assets/images/banner/peacemaker_banner-2.webp') }}" alt="">
                             </div>
                             <div class="hero-content-bg">
                                 <div class="hero-content position-relative">
@@ -44,7 +44,7 @@
                     <div class="swiper-slide">
                         <div class="hero-single-slide">
                             <div class="hero-highlighted-bg">
-                                <img src="{{ asset('assets/images/banner/peacemaker_banner-1.jpeg') }}" alt="">
+                                <img src="{{ asset('assets/images/banner/peacemaker_banner-1.webp') }}" alt="">
                             </div>
                             <div class="hero-content-bg">
                                 <div class="hero-content position-relative">
@@ -97,7 +97,7 @@
                     <div class="package-card-alpha">
                         <div class="package-thumb">
                             <a href="package-details.html"><img
-                                    src="{{ asset('assets/images/package/Peacemaker-majestic1.jpeg') }}" alt=""></a>
+                                    src="{{ asset('assets/images/package/Peacemaker-majestic1.webp') }}" alt=""></a>
                             <p class="card-lavel">
                                 <i class="bi bi-clock"></i> <span>6 Days/5 Nights</span>
                             </p>
@@ -119,7 +119,7 @@
                     <div class="package-card-alpha">
                         <div class="package-thumb">
                             <a href="package-details.html"><img
-                                    src="{{ asset('assets/images/package/Peacemaker-family.jpeg') }}" alt=""></a>
+                                    src="{{ asset('assets/images/package/Peacemaker-family.webp') }}" alt=""></a>
                             <p class="card-lavel">
                                 <i class="bi bi-clock"></i> <span>8 Days/7 Nights</span>
                             </p>
@@ -139,7 +139,7 @@
                     <div class="package-card-alpha">
                         <div class="package-thumb">
                             <a href="package-details.html"><img
-                                    src="{{ asset('assets/images/package/Peacemaker-adventure.jpeg') }}" alt=""></a>
+                                    src="{{ asset('assets/images/package/Peacemaker-adventure.webp') }}" alt=""></a>
                             <p class="card-lavel">
                                 <i class="bi bi-clock"></i> <span>5 Days/4 Nights</span>
                             </p>
@@ -189,7 +189,7 @@
                         <div class="destination-card-style-one">
                             <div class="d-card-thumb">
                                 <a href="destination-details.html"><img
-                                        src="{{ asset('assets/images/destination/serengeti.jpeg') }}" alt=""></a>
+                                        src="{{ asset('assets/images/destination/serengeti.webp') }}" alt=""></a>
                             </div>
                             <div class="d-card-overlay">
                                 <div class="d-card-content">
@@ -202,7 +202,7 @@
                         <div class="destination-card-style-one">
                             <div class="d-card-thumb">
                                 <a href="destination-details.html"><img
-                                        src="{{ asset('assets/images/destination/ngorongoro.jpeg') }}" alt=""></a>
+                                        src="{{ asset('assets/images/destination/ngorongoro.webp') }}" alt=""></a>
                             </div>
                             <div class="d-card-overlay">
                                 <div class="d-card-content">
@@ -214,7 +214,7 @@
                     <div class="swiper-slide">
                         <div class="destination-card-style-one">
                             <div class="d-card-thumb">
-                                <a href="#"><img src="{{ asset('assets/images/destination/manyara.jpeg') }}" alt=""></a>
+                                <a href="#"><img src="{{ asset('assets/images/destination/manyara.webp') }}" alt=""></a>
                             </div>
                             <div class="d-card-overlay">
                                 <div class="d-card-content">
@@ -227,7 +227,7 @@
                         <div class="destination-card-style-one">
                             <div class="d-card-thumb">
                                 <a href="destination-details.html"><img
-                                        src="{{ asset('assets/images/destination/tarangire.jpeg') }}" alt=""></a>
+                                        src="{{ asset('assets/images/destination/tarangire.webp') }}" alt=""></a>
                             </div>
                             <div class="d-card-overlay">
                                 <div class="d-card-content">
@@ -240,7 +240,7 @@
                         <div class="destination-card-style-one">
                             <div class="d-card-thumb">
                                 <a href="destination-details.html"><img
-                                        src="{{ asset('assets/images/destination/arusha.jpeg') }}" alt=""></a>
+                                        src="{{ asset('assets/images/destination/arusha.webp') }}" alt=""></a>
                             </div>
                             <div class="d-card-overlay">
                                 <div class="d-card-content">
@@ -341,55 +341,55 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="gallary-item">
-                        <img src="{{ asset('assets/images/gallary/peacemakers-gxl1.jpeg') }}" alt="Image Gallery">
+                        <img src="{{ asset('assets/images/gallary/peacemakers-gxl1.webp') }}" alt="Image Gallery">
                         <a class="gallary-item-overlay" data-fancybox="gallery" data-caption="Caption Here"
-                            href="assets/images/gallary/peacemakers-gxl1.jpeg">
+                            href="assets/images/gallary/peacemakers-gxl1.webp">
                             <i class="bi bi-eye"></i>
                         </a>
                     </div>
                     <div class="gallary-item">
-                        <img src="{{ asset('assets/images/gallary/peacemakers-gmd1.jpeg') }}" alt="Image Gallery">
+                        <img src="{{ asset('assets/images/gallary/peacemakers-gmd1.webp') }}" alt="Image Gallery">
                         <a class="gallary-item-overlay" data-fancybox="gallery" data-caption="Caption Here"
-                            href="assets/images/gallary/peacemakers-gmd1.jpeg">
-                            <i class="bi bi-eye"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <div class="gallary-item">
-                        <img src="{{ asset('assets/images/gallary/peacemakers-gsm1.jpeg') }}" alt="Image Gallery">
-                        <a class="gallary-item-overlay" data-fancybox="gallery" data-caption="Caption Here"
-                            href="assets/images/gallary/peacemakers-gsm1.jpeg">
-                            <i class="bi bi-eye"></i>
-                        </a>
-                    </div>
-                    <div class="gallary-item">
-                        <img src="{{ asset('assets/images/gallary/peacemakers-gsm2.jpeg') }}" alt="Image Gallery">
-                        <a class="gallary-item-overlay" data-fancybox="gallery" data-caption="Caption Here"
-                            href="assets/images/gallary/peacemakers-gsm2.jpeg">
-                            <i class="bi bi-eye"></i>
-                        </a>
-                    </div>
-                    <div class="gallary-item">
-                        <img src="{{ asset('assets/images/gallary/peacemakers-gmd2.jpeg') }}" alt="Image Gallery">
-                        <a class="gallary-item-overlay" data-fancybox="gallery" data-caption="Caption Here"
-                            href="assets/images/gallary/peacemakers-gmd2.jpeg">
+                            href="assets/images/gallary/peacemakers-gmd1.webp">
                             <i class="bi bi-eye"></i>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4">
                     <div class="gallary-item">
-                        <img src="{{ asset('assets/images/gallary/peacemakers-gxl2.jpeg') }}" alt="Image Gallery">
+                        <img src="{{ asset('assets/images/gallary/peacemakers-gsm1.webp') }}" alt="Image Gallery">
                         <a class="gallary-item-overlay" data-fancybox="gallery" data-caption="Caption Here"
-                            href="assets/images/gallary/peacemakers-gxl2.jpeg">
+                            href="assets/images/gallary/peacemakers-gsm1.webp">
                             <i class="bi bi-eye"></i>
                         </a>
                     </div>
                     <div class="gallary-item">
-                        <img src="{{ asset('assets/images/gallary/peacemakers-gmd3.jpeg') }}" alt="Image Gallery">
+                        <img src="{{ asset('assets/images/gallary/peacemakers-gsm2.webp') }}" alt="Image Gallery">
                         <a class="gallary-item-overlay" data-fancybox="gallery" data-caption="Caption Here"
-                            href="assets/images/gallary/peacemakers-gmd3.jpeg">
+                            href="assets/images/gallary/peacemakers-gsm2.webp">
+                            <i class="bi bi-eye"></i>
+                        </a>
+                    </div>
+                    <div class="gallary-item">
+                        <img src="{{ asset('assets/images/gallary/peacemakers-gmd2.webp') }}" alt="Image Gallery">
+                        <a class="gallary-item-overlay" data-fancybox="gallery" data-caption="Caption Here"
+                            href="assets/images/gallary/peacemakers-gmd2.webp">
+                            <i class="bi bi-eye"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="gallary-item">
+                        <img src="{{ asset('assets/images/gallary/peacemakers-gxl2.webp') }}" alt="Image Gallery">
+                        <a class="gallary-item-overlay" data-fancybox="gallery" data-caption="Caption Here"
+                            href="assets/images/gallary/peacemakers-gxl2.webp">
+                            <i class="bi bi-eye"></i>
+                        </a>
+                    </div>
+                    <div class="gallary-item">
+                        <img src="{{ asset('assets/images/gallary/peacemakers-gmd3.webp') }}" alt="Image Gallery">
+                        <a class="gallary-item-overlay" data-fancybox="gallery" data-caption="Caption Here"
+                            href="assets/images/gallary/peacemakers-gmd3.webp">
                             <i class="bi bi-eye"></i>
                         </a>
                     </div>
